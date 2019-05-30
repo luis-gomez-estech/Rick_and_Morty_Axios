@@ -1,0 +1,84 @@
+
+
+body{
+    
+	/* PARA PONER UNA IMAGEN DE FONDO Y ADEMAS PODER TINTAR LA IMAGEN (UN OVERLOAD O COVER COMO WORDPRESS) */
+    background: linear-gradient(
+      rgba(255, 255, 2550, 0.9), 
+      rgba(0, 0, 0, 0.8)
+    ), url(../imagenes/fondo2.jpg);
+   
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container{
+	display: flex;
+	flex-direction: row; 
+	padding: 20px;
+	justify-content:  center;
+	flex-wrap: wrap;
+	max-width: 1000px;
+	margin-top: 20px;
+   
+
+}
+
+.barra {
+
+	height: 4px;
+	background: salmon;
+
+}
+
+hr {
+	width: 200px;
+}
+
+.card2 {
+	border: 1px solid rgba(0,0,0,0.5);
+	background: rgba(0,0,0,0.6) !important;
+}
+
+.card-title {
+	margin-top: 20px;
+	margin-bottom: 0px:
+	color: #6255b5;
+	background: rgba(255,255,263,0.8);
+	padding: 10px;
+	text-align: center !important;
+	font-size: 16px;
+}
+
+
+.caracteristicasL {
+	float: left;
+	margin-left: 30px !important;
+	font-weight: bold;
+	font-size: 12px;
+	color:  #ec5b16;
+	
+	}
+
+.caracteristicasR {
+	float: right;
+	margin-right: 30px !important;
+	font-weight: bold;
+	font-size: 12px;
+	color: #fff;
+
+}
+
+/* LA imagen se sale pero la ajusto aqui */
+
+.card_image_top {
+	max-width: 100% !important;
+}
+
+
+
+
+
+
+
